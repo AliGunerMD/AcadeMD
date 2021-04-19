@@ -19,8 +19,8 @@
  *
  * ------------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap);
-@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Cabin:600,600i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap);
 
 
 :root {
@@ -29,10 +29,10 @@
   --text-font-is-google: 1;
   --text-font-family-fallback: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial;
   --text-font-base: sans-serif;
-  --header-font-family: 'Source Sans Pro';
+  --header-font-family: Cabin;
   --header-font-is-google: 1;
   --header-font-family-fallback: Georgia, serif;
-  --code-font-family: 'IBM Plex Mono';
+  --code-font-family: 'Source Code Pro';
   --code-font-is-google: 1;
   --base-font-size: 20px;
   --text-font-size: 1rem;
@@ -44,20 +44,20 @@
 
   /* Colors */
   --text-color: #000000;
-  --header-color: #035AA6;
+  --header-color: #1DA1F2;
   --background-color: #FFFFFF;
-  --link-color: #035AA6;
-  --text-bold-color: #035AA6;
+  --link-color: #1DA1F2;
+  --text-bold-color: #1DA1F2;
   --code-highlight-color: rgba(255,255,0,0.5);
   --inverse-text-color: #000000;
   --inverse-background-color: #F97B64;
   --inverse-header-color: #000000;
-  --inverse-link-color: #035AA6;
-  --title-slide-background-color: #035AA6;
-  --title-slide-text-color: #000000;
-  --header-background-color: #035AA6;
+  --inverse-link-color: #1DA1F2;
+  --title-slide-background-color: #1DA1F2;
+  --title-slide-text-color: #FFFFFF;
+  --header-background-color: #1DA1F2;
   --header-background-text-color: #FFFFFF;
-  --primary: #035AA6;
+  --primary: #1DA1F2;
   --secondary: #F97B64;
   --white: #FFFFFF;
   --black: #000000;
@@ -66,7 +66,7 @@
   --orange: #ff8811;
   --green: #136f63;
   --white: #FFFFFF;
-  --blue: #035AA6;
+  --blue: #1DA1F2;
   --gray: #6e6f70;
   --black: #000000;
 }
@@ -109,7 +109,7 @@ h1, h2, h3 {
 }
 .remark-inline-code {
   font-size: var(--code-inline-font-size);
-  color: #035AA6;
+  color: #1DA1F2;
 }
 .remark-slide-number {
   color: #000000;
@@ -157,10 +157,10 @@ a, a > code {
   float: left;
 }
 .left-column h2, .left-column h3 {
-  color: #035AA699;
+  color: #1DA1F299;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
-  color: #035AA6;
+  color: #1DA1F2;
 }
 .right-column {
   width: 75%;
