@@ -1,0 +1,142 @@
+---
+title: "Peloton-2021"
+session: "01"
+subtitle: "Başlangıç"
+author: "Ali Güner"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    seal: false 
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLanguage: ["r"]
+      slideNumberFormat: "" 
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  out.width = "80%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+# vignette("template-variables", "xaringanthemer")
+
+style_duo_accent(
+  primary_color = "#035AA6",
+  secondary_color = "#F97B64",
+  inverse_header_color = "#000000",
+  title_slide_text_color = "#000000",
+  text_slide_number_color = "#000000",
+  header_font_google = google_font("Source Sans Pro", "600"),
+  text_font_google = google_font("Source Sans Pro", "600"),
+  code_font_google   = google_font("IBM Plex Mono"),
+  footnote_font_size = "0.6em",
+  footnote_position_bottom = "40px",
+  colors = c(
+  red = "#f34213",
+  purple = "#3e2f5b",
+  orange = "#ff8811",
+  green = "#136f63",
+  white = "#FFFFFF",
+  blue = "#035AA6",
+  gray = "#6e6f70",
+  black = "#000000"))
+
+```
+```{r packages, include=FALSE}
+library(tidyverse)
+ggplot2::theme_set(ggplot2::theme_light())
+```
+
+
+class:title-slide, center, middle
+background-color:white
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+<br>
+
+### `r rmarkdown::metadata$author` 
+####  <a href= "mailto:draliguner@yahoo.com", style="color:#1278a3">email</a> - <a href="https://aliguner.com/", style="color:#1278a3">web</a> - <a href="https://twitter.com/AliGunerMD", style="color:#1278a3">twitter</a>  - <a href="https://https://github.com/AliGunerMD", style="color:#1278a3">github</a> 
+<br>
+#### `r format(Sys.Date(), "%d-%m-%Y")` &#183; KTÜ
+
+---
+class: center, middle
+
+.pull-left[
+```{r, echo=FALSE,  out.width = "400px", fig.cap= "Global Akademi*"}
+knitr::include_graphics("./images/globalakademi.jpeg")
+```
+]
+
+.footnote[
+.gray[*akademisyenim.com (2012) -> globalakademik.com (2015) -> aliguner.com (2019)  
+(Peloton/Pelotonetto)]]
+
+
+--
+.pull-right[
+
+```{r, echo=FALSE, out.width = "400px", fig.cap="AcadeMD (2021)"}
+knitr::include_graphics("./images/AcadeMD_logo.png")
+```
+]
+---
+class: center, middle
+
+```{r, echo=FALSE, out.width = "400px"}
+knitr::include_graphics("./images/AcadeMD_logo.png")
+```
+  
+--
+
+Peloton  
+
+--
+Journal Club  
+
+--
+DataVizMed  
+
+???
+deneme 3 5
+---
+## Neden gerek duydum? [(blog)](https://www.aliguner.com/blog/2018/04/15/neden-gerek-duydum/)
+
+```{r, echo=FALSE, out.width = "400px", fig.cap="", fig.align='center'}
+knitr::include_graphics("./images/neden gerek duydum.jpg")
+
+```
+
+--
+.pull-left[.center[
+#### Mühendislik
+      - Lisans
+      - Yüksek lisans
+      - Doktora
+]]
+
+.pull-right[.center[
+#### Tıp
+      - Lisans
+      - Tıpta uzmanlık
+      - ....
+]]
+
