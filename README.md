@@ -1,5 +1,5 @@
 
 
-AcadeMD_logo.png![image](slides/images/AcadeMD_logo.png){width=100}
+<img src='slides/images/AcadeMD_logo.png' align="center" height="150" />
 
 A project aiming to improve academic skills of MDs
