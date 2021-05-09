@@ -15,7 +15,7 @@ output:
      # highlightLanguage: ["r"]
       slideNumberFormat: "" 
       highlightLines: true
-      countIncrementalSlides: false
+      countIncrementalSlides: true
       ratio: "16:9"
     includes:
       in_header: assets/header.html
@@ -206,7 +206,6 @@ class:  middle, center
 ```{r, echo=FALSE, out.width="50%"}
 knitr::include_graphics("images/projectplan.jpg")
 ```
-
 ---
 background-image: url(images/letsmove.jpg)
 background-position: cover
@@ -288,8 +287,8 @@ background-image: url(images/keynotes/keynotes.016.png)
 background-size: 80%
 class: center
 ---
-## Plan
-```{r, echo=FALSE, out.width="60%", fig.align='center'}
+## Plan = ilişkimize isim koyalım!!
+```{r, echo=FALSE, out.width="55%", fig.align='center'}
 knitr::include_graphics("images/statistical_plan.jpg")
 ```
 
@@ -343,13 +342,23 @@ bazı kaynaklar: [Web](https://www.learnreligions.com/criteria-for-science-and-s
 ```{r, echo=FALSE, out.width="40%", fig.align='center'}
 knitr::include_graphics("images/keynotes/keynotes.017.png")
 ```
+--
 **Biostatistics** is the development and application of statistical methods to a wide range of topics in <u>biology</u>.
 ---
 
 #### <u>Statistic</u>: .. for the purpose of inferring proportions in a whole from those **in a representative sample**  
-```{r, echo=FALSE, out.width="55%", fig.align='center'}
+
+.left-column[
+```{r, echo=FALSE, out.width="100%", fig.align='center'}
 knitr::include_graphics("images/keynotes/keynotes.003.png")
 ```
+]
+
+.right-column[
+```{r, echo=FALSE, out.width="55%", fig.align='center'}
+knitr::include_graphics("images/stats.gif")
+```
+]
 
 .footnote[check video for more [BBR1: Biostatistics for Biomedical Research Session 1](https://www.youtube.com/watch?v=x3lV9UWoQwQ&t=2755s)]
 ---
@@ -365,22 +374,24 @@ knitr::include_graphics("images/keynotes/keynotes.005.png")
 knitr::include_graphics("images/keynotes/keynotes.006.png")
 ```
 ---
-
+```{r, echo=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/keynotes/keynotes.007.png")
+```
 
 ---
-İstatistiğin farklı tipleri
+<center>İstatistiğin farklı tipleri</center>
 
-* **Descriptive (tanımlayıcı) istatistik:** Ölçümlerini özetler.
+* **Descriptive (tanımlayıcı):** Ölçümlerini özetler.
   
-* **Exploratory istatistik:** Ölçümler arasındaki trend-korelasyon-ilişkileri değerlendirip hipotezler/fikirler ortaya koyar
+* **Exploratory:** Ölçümler arasındaki trend-korelasyon-ilişkileri değerlendirip hipotezler/fikirler ortaya koyar
   
-* **Inferential (çıkarımsal) istatistik:** Gözlemimizin, elimizdeki verisetinin ötesine genelleştirilmesi
+* **Inferential (çıkarımsal):** Gözlemimizin, elimizdeki verisetinin ötesine genelleştirilmesi
 
-* **Predictive istatistik:** Ölçümlerimizi kullanarak başka kişilerin ölçümlerini tahmin etme
+* **Predictive:** Ölçümlerimizi kullanarak başka kişilerin ölçümlerini tahmin etme
 
-* **Causal istatistik:** Bir ölçümü değiştirdiğimizde diğerine ne olduğu
+* **Causal:** Bir ölçümü değiştirdiğimizde diğerine ne olduğu
 
-* **Mechanistic istatistik:** Sadece etki varlığını değil, bunun nasıl olduğu
+* **Mechanistic:** Sadece etki varlığını değil, bunun nasıl olduğu
 
 .footnote[
 The Elements of Data Analytic Style: https://worldpece.org/sites/default/files/datastyle.pdf
@@ -400,14 +411,99 @@ knitr::include_graphics("images/data_analysis_flow.jpg")
 The Elements of Data Analytic Style: https://worldpece.org/sites/default/files/datastyle.pdf
 ]
 ---
-exclude: true
-```{r, echo=FALSE,out.width="55%", fig.align='center'}
-x=seq(-4,4,length=200)
-y=dnorm(x)
-plot(x,y,type="l",lwd=2,col="blue")
-x=seq(-2,2,length=200)
-y=dnorm(x)
-polygon(c(-2,x,2),c(0,y,0),col="gray") 
-```
----
+class: center, middle
 
+.pull-left[
+İstatistik teorisi
+
+```{r, echo=FALSE,out.width="50%", fig.align='center'}
+knitr::include_graphics("images/keynotes/keynotes.018.png")
+```
+
+Bilimsel ürün
+]
+--
+.pull-left[
+Bilimsel ürün mantığı
+
+```{r, echo=FALSE,out.width="50%", fig.align='center'}
+knitr::include_graphics("images/keynotes/keynotes.018.png")
+```
+
+Bilimsel ürün
+]
+---
+background-image: url(images/keynotes/keynotes.019.png)
+background-size: 80%
+class: center
+
+.footnote[
+[makale: Röhrig B et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2689572/pdf/Dtsch_Arztebl_Int-106-0262.pdf)
+]
+---
+background-image: url(images/keynotes/keynotes.020.png)
+background-size: 75%
+class: center
+.footnote[
+[Wikipedia: Case-Control Study ](https://en.wikipedia.org/wiki/Case%E2%80%93control_study)
+]
+---
+background-image: url(images/types2.jpg)
+background-size: 70%
+class: center
+
+.footnote[
+[kitap: Kestenbaum B, Epidemiology and Biostatistics ](https://www.springer.com/gp/book/9783319966427)
+]
+---
+background-image: url(images/keynotes/keynotes.021.png)
+background-size: 80%
+class: center
+---
+class: center, middle
+
+
+
+Grup karşılaştırması  
+
+İlişki/Korelasyon  
+
+Tahmin/Prediction  
+
+Geçerlilik/Güvenilirlik  
+---
+background-image: url(images/keynotes/keynotes.022.png)
+background-size: 70%
+class: center
+.footnote[
+[makale: Jaykaran C.](https://www.academia.edu/12523704/How_to_select_appropriate_statistical_test_pdf)
+]
+---
+background-image: url(images/keynotes/keynotes.023.png)
+background-size: 75%
+class: center
+
+---
+background-image: url(images/test_seçimi.jpg)
+background-size: 75%
+class: center
+.footnote[
+[kaynak: aliguner.com](https://www.aliguner.com/testsecimi/)
+]
+---
+background-image: url(images/test_seçimi2.jpg)
+background-size: 70%
+class: center
+.footnote[
+[kaynak: aliguner.com](https://www.aliguner.com/testsecimi/)
+]
+---
+class: center, middle
+
+# ödev: HİPOTEZ!!  
+--
+<u>next</u>   
+veri tipleri,  
+literature search,  
+p ye giriş
+---
