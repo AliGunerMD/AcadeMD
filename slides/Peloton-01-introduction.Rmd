@@ -129,26 +129,26 @@ DataVizMed
 ???
 deneme 3 5
 ---
-## Neden gerek duydum? [(blog)](https://www.aliguner.com/blog/2018/04/15/neden-gerek-duydum/)
+## <center>Neden gerek duydum? [(blog)](https://www.aliguner.com/blog/2018/04/15/neden-gerek-duydum/)</center>
 
 ```{r, echo=FALSE, out.width = "400px", fig.cap="", fig.align='center'}
 knitr::include_graphics("./images/neden gerek duydum.jpg")
 
 ```
-
+ 
 --
 .pull-left[.center[
-#### Mühendislik
-      - Lisans
-      - Yüksek lisans
-      - Doktora
+<u>Mühendislik</u>  
+Lisans  
+Yüksek lisans  
+Doktora 
 ]]
 
 .pull-right[.center[
-#### Tıp
-      - Lisans
-      - Tıpta uzmanlık
-      - ....
+<u>Tıp</u>  
+Lisans  
+Tıpta uzmanlık  
+....  
 ]]
 
 ---
@@ -485,7 +485,7 @@ class: center
 
 ---
 background-image: url(images/test_seçimi.jpg)
-background-size: 75%
+background-size: 70%
 class: center
 .footnote[
 [kaynak: aliguner.com](https://www.aliguner.com/testsecimi/)
@@ -502,7 +502,7 @@ class: center, middle
 
 # ödev: HİPOTEZ!!  
 --
-  
+   
 <u>next</u>  
 p ye giriş  
 veri tipleri + toplanması  
