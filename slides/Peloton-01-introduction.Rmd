@@ -503,8 +503,10 @@ class: center, middle
 # ödev: HİPOTEZ!!  
 --
   
-<u>next</u>   
-veri tipleri,  
-literature search,  
-p ye giriş
+<u>next</u>  
+p ye giriş  
+veri tipleri + toplanması  
+makalenin anatomisi  
+literature search  
+
 ---
