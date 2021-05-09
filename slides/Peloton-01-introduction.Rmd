@@ -502,6 +502,7 @@ class: center, middle
 
 # ödev: HİPOTEZ!!  
 --
+  
 <u>next</u>   
 veri tipleri,  
 literature search,  
