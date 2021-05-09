@@ -35,7 +35,7 @@
   --code-font-family: 'Source Code Pro';
   --code-font-is-google: 1;
   --base-font-size: 20px;
-  --text-font-size: 1rem;
+  --text-font-size: 1.5rem;
   --code-font-size: 0.9rem;
   --code-inline-font-size: 1em;
   --header-h1-font-size: 2.75rem;
@@ -49,7 +49,7 @@
   --link-color: #1DA1F2;
   --text-bold-color: #1DA1F2;
   --code-highlight-color: rgba(255,255,0,0.5);
-  --inverse-text-color: #000000;
+  --inverse-text-color: #FFFFFF;
   --inverse-background-color: #F97B64;
   --inverse-header-color: #000000;
   --inverse-link-color: #1DA1F2;
@@ -87,7 +87,7 @@ h1, h2, h3 {
 }
 .remark-slide-content {
   background-color: var(--background-color);
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 16px 64px 16px 64px;
   width: 100%;
   height: 100%;
@@ -123,7 +123,8 @@ a, a > code {
 }
 .footnote {
   position: absolute;
-  bottom: 40px;
+  color: #A9A9A9;
+  bottom: 10px;
   padding-right: 4em;
   font-size: 0.6em;
 }

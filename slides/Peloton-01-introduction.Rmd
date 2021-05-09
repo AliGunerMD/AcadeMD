@@ -19,6 +19,8 @@ output:
       ratio: "16:9"
     includes:
       in_header: assets/header.html
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -43,11 +45,14 @@ style_duo_accent(
   primary_color = "#1DA1F2",
   secondary_color = "#F97B64",
   inverse_header_color = "#000000",
+  inverse_text_color = "#FFFFFF",
   title_slide_text_color = "#FFFFFF",
   text_slide_number_color = "#000000",
   text_font_google = google_font("Source Sans Pro", "600"),
+  text_font_size = "1.5rem",
   footnote_font_size = "0.6em",
-  footnote_position_bottom = "40px",
+  footnote_position_bottom = "10px",
+  footnote_color = "#A9A9A9", 
   colors = c(
   red = "#f34213",
   purple = "#3e2f5b",
@@ -93,8 +98,8 @@ knitr::include_graphics("./images/globalakademi.jpeg")
 ]
 
 .footnote[
-.gray[*akademisyenim.com (2012) -> globalakademik.com (2015) -> aliguner.com (2019)  
-(Peloton/Pelotonetto)]]
+*akademisyenim.com (2012) -> globalakademik.com (2015) -> aliguner.com (2019)  
+(Peloton/Pelotonetto)]
 
 
 --
@@ -145,4 +150,264 @@ knitr::include_graphics("./images/neden gerek duydum.jpg")
       - Tıpta uzmanlık
       - ....
 ]]
+
+---
+class: middle, center
+
+
+![](https://images-na.ssl-images-amazon.com/images/I/514QYITx4ZL.jpg)
+
+  
+"There is always change, 
+life is constantly changing.   
+As the world changes, we may not know what to expect on our next path."
+
+---
+class:  center, middle
+
+.left-column[
+
+![](https://media.springernature.com/w153/springer-static/cover/book/9780857293138.jpg)
+]
+
+.right-column[
+![](https://www.slhd.nsw.gov.au/rpa/ias/images/academic_career01.png)
+]
+---
+class:  middle, center
+
+.pull-left[
+
+```{r, echo=FALSE, out.width="90%", fig.align='center'}
+knitr::include_graphics("images/alphabet.jpg")
+```
+]
+
+.pull-right[
+  
+bilim-bilimsel yöntem  
+istatistik-biyoistatistik  
+Veri tipleri  
+Çalışma tipleri  
+Çalışma dizaynı  
+Hipotez testleri  
+p-value  
+Effect size  
+OR-RR-HR-CI  
+SR-MA  
+RCT  
+Protokol  
+(........)  
+]
+
+---
+class:  middle, center
+
+```{r, echo=FALSE, out.width="50%"}
+knitr::include_graphics("images/projectplan.jpg")
+```
+
+---
+background-image: url(images/letsmove.jpg)
+background-position: cover
+background-size: 100%
+class: top, center, inverse
+
+Let's move
+
+---
+background-image: url(images/keynotes/keynotes.002.png)
+background-position: bottom
+background-size: 55%
+
+#### <u> Bilim </u><sup>1</sup>: **Gözlem ve deney** kullanarak **fiziksel ve doğal dünya**nın **yapısı ve davranışı**nın **sistematik** olarak incelenmesini kapsayan *entellektüel ve pratik faaliyet*
+
+
+.footnote[
+[1] Google dictionary  
+[tablo:] Wikipedia]
+
+???
+
+---
+class:  middle, center
+
+### Ampirik = Empeirikos
+= experienced  
+= deneysel bilgi  
+= gözlemler sonucu elde edilen bilgi  
+= gözlem veya deney yoluyla elde edilen bilgi  
+= concerned with by <u>observation or experience</u> rather than theory or pure logic
+<br><br><br>
+### Formal  
+= *teorik* fikirlerle başlayıp ve düşünme süreci sayesinde diğer farklı *teorik* fikirlere ulaşır
+---
+class: center
+.left-column[
+![](https://www.yapikrediyayinlari.com.tr/dosyalar/2020/10/bilimsel_arastirmanin_mantigi-973.jpg)
+]
+.right-column[
+<br><br><br>
+Bilim adamının görevi, <u>önermeler ya da önermeler dizesi</u> ileri sürmek ve bunları sistemli biçimde sınamaktır.
+  
+Bilim, tümdengelim ile çalışır.
+]
+.footnote[
+[] Karl Raimund Popper
+]
+---
+background-image: url(images/keynotes/keynotes.009.png)
+background-size: 80%
+class: center
+---
+background-image: url(images/keynotes/keynotes.010.png)
+background-size: 80%
+class: center
+---
+background-image: url(images/keynotes/keynotes.011.png)
+background-size: 80%
+class: center
+---
+background-image: url(images/keynotes/keynotes.012.png)
+background-size: 80%
+class: center
+---
+background-image: url(images/keynotes/keynotes.013.png)
+background-size: 80%
+class: center
+---
+background-image: url(images/keynotes/keynotes.014.png)
+background-size: 80%
+class: center
+---
+background-image: url(images/keynotes/keynotes.015.png)
+background-size: 80%
+class: center
+---
+background-image: url(images/keynotes/keynotes.016.png)
+background-size: 80%
+class: center
+---
+## Plan
+```{r, echo=FALSE, out.width="60%", fig.align='center'}
+knitr::include_graphics("images/statistical_plan.jpg")
+```
+
+.footnote[
+full text: [Scientific Method, Statistical Method and the Speed of Light](https://projecteuclid.org/journals/statistical-science/volume-15/issue-3/Scientific-Method-Statistical-Method-and-the-Speed-of/10.1214/ss/1009212817.full) by MacKay RJ, Oldford RW in <u>Statistical Science</u>
+]
+---
+class: center
+
+.pull-left[
+## <u>Bilimsel kriterleri</u>  
+* Test edilebilir  
+
+* Objektif 
+
+* Tekrarlanabilir  
+
+* Transparan  
+
+* Yanlışlanabilir  
+
+* Tutarlı (iç-dış)    
+]
+--
+.pull-right[
+## <u>Diğer</u> 
+
+* Geçici (tentative)  
+
+* Kümülatif  
+
+* Net (clarity)
+
+* Öngörülebilir(Predictable)
+
+* Kullanışlı (usable) 
+]
+.footnote[
+bazı kaynaklar: [Web](https://www.learnreligions.com/criteria-for-science-and-scientific-theories-250570),
+[Web](https://www.waldenu.edu/online-masters-programs/ms-in-education/resource/ms-in-education-course-insight-the-six-criteria-of-science),
+[Web](https://www.soas.ac.uk/cedep-demos/000_P506_RM_3736-Demo/unit1/page_12.htm),
+[Wikipedia](https://en.wikipedia.org/wiki/Scientific_theory)
+
+]
+---
+### <center> İstatistik - Biyoistatistik  </center>
+
+**Statistics** (not statistic) is the discipline that concerns the <u>collection, organization, analysis, interpretation, and presentation</u> of data.  
+
+
+```{r, echo=FALSE, out.width="40%", fig.align='center'}
+knitr::include_graphics("images/keynotes/keynotes.017.png")
+```
+**Biostatistics** is the development and application of statistical methods to a wide range of topics in <u>biology</u>.
+---
+
+#### <u>Statistic</u>: .. for the purpose of inferring proportions in a whole from those **in a representative sample**  
+```{r, echo=FALSE, out.width="55%", fig.align='center'}
+knitr::include_graphics("images/keynotes/keynotes.003.png")
+```
+
+.footnote[check video for more [BBR1: Biostatistics for Biomedical Research Session 1](https://www.youtube.com/watch?v=x3lV9UWoQwQ&t=2755s)]
+---
+```{r, echo=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/keynotes/keynotes.004.png")
+```
+---
+```{r, echo=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/keynotes/keynotes.005.png")
+```
+---
+```{r, echo=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("images/keynotes/keynotes.006.png")
+```
+---
+
+
+---
+İstatistiğin farklı tipleri
+
+* **Descriptive (tanımlayıcı) istatistik:** Ölçümlerini özetler.
+  
+* **Exploratory istatistik:** Ölçümler arasındaki trend-korelasyon-ilişkileri değerlendirip hipotezler/fikirler ortaya koyar
+  
+* **Inferential (çıkarımsal) istatistik:** Gözlemimizin, elimizdeki verisetinin ötesine genelleştirilmesi
+
+* **Predictive istatistik:** Ölçümlerimizi kullanarak başka kişilerin ölçümlerini tahmin etme
+
+* **Causal istatistik:** Bir ölçümü değiştirdiğimizde diğerine ne olduğu
+
+* **Mechanistic istatistik:** Sadece etki varlığını değil, bunun nasıl olduğu
+
+.footnote[
+The Elements of Data Analytic Style: https://worldpece.org/sites/default/files/datastyle.pdf
+]
+???
+  + Merkezi eğilim (lokasyon)
+  + Dağılım (variability)
+  
+  (Probability distribution) Bir deney için muhtemel farklı sonuçların olabilme ihtimalini veren matematik fonksiyonu
+---
+
+```{r, echo=FALSE,out.width="50%", fig.align='center'}
+knitr::include_graphics("images/data_analysis_flow.jpg")
+```
+
+.footnote[
+The Elements of Data Analytic Style: https://worldpece.org/sites/default/files/datastyle.pdf
+]
+---
+exclude: true
+```{r, echo=FALSE,out.width="55%", fig.align='center'}
+x=seq(-4,4,length=200)
+y=dnorm(x)
+plot(x,y,type="l",lwd=2,col="blue")
+x=seq(-2,2,length=200)
+y=dnorm(x)
+polygon(c(-2,x,2),c(0,y,0),col="gray") 
+```
+---
 
