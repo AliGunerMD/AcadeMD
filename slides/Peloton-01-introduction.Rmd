@@ -46,7 +46,7 @@ style_duo_accent(
   secondary_color = "#F97B64",
   inverse_header_color = "#000000",
   inverse_text_color = "#FFFFFF",
-  title_slide_text_color = "#000000",
+  title_slide_text_color = "#FFFFFF",
   text_slide_number_color = "#000000",
   text_font_google = google_font("Source Sans Pro", "600"),
   text_font_size = "1.5rem",
@@ -71,21 +71,17 @@ ggplot2::theme_set(ggplot2::theme_light())
 ```
 
 class: title-slide, center, middle
-background-image: url(images/keynotes/keynotes.024.png)
+background-image: url(images/contact_photo2.jpg)
 background-size: cover
 
-<br>
+
 # `r rmarkdown::metadata$title`
-
-## `r rmarkdown::metadata$subtitle`
+### `r rmarkdown::metadata$subtitle`
 <br>
-
-### `r rmarkdown::metadata$author` <br>`r rmarkdown::metadata$acatitle`
-
-
-
-#### `r format(Sys.Date(), "%d-%m-%Y")` &#183; KTÜ
-####  <a href= "mailto:draliguner@yahoo.com", style="color:#1278a3">email</a> - <a href="https://aliguner.com/", style="color:#1278a3">web</a> - <a href="https://twitter.com/AliGunerMD", style="color:#1278a3">twitter</a>  - <a href="https://github.com/AliGunerMD", style="color:#1278a3">github</a> 
+#### `r rmarkdown::metadata$author` &#183; KTÜ<br>`r rmarkdown::metadata$acatitle` 
+<br>
+ `r format(Sys.Date(), "%d-%m-%Y")`   
+ <a href= "mailto:draliguner@yahoo.com", style="color:#1278a3">email</a> - <a href="https://aliguner.com/", style="color:#1278a3">web</a> - <a href="https://twitter.com/AliGunerMD", style="color:#1278a3">twitter</a>  - <a href="https://github.com/AliGunerMD", style="color:#1278a3">github</a> 
 
 
 ---
